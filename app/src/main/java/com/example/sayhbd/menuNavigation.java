@@ -1,4 +1,4 @@
-package com.example.sayhbd.birthdayRecyclerView;
+package com.example.sayhbd;
 
 import android.os.Bundle;
 
@@ -8,22 +8,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.sayhbd.R;
 
-public class people extends Fragment {
+public class menuNavigation extends Fragment {
 
-    public people() {
+    public menuNavigation() {
         // Required empty public constructor
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.people, container, false);
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.menu_navigation, container, false);
     }
 }

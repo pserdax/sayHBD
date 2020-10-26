@@ -6,4 +6,6 @@
     <color name="color_bg">#36454F</color>
     <color name="black_oil">#343434</color>
     <color name="white">#FFFFFF</color>
+    <color name="last_dinner">#0d0c0a</color>
+    <color name="burnt_orange">#ed9121</color>
 </resources>
