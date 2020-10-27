@@ -17,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:backgroundTint="@color/last_dinner"
+        app:hideOnScroll="true"
         android:layout_gravity="bottom"
         app:fabAlignmentMode="end"
         app:menu="@menu/app_bar_menu"
